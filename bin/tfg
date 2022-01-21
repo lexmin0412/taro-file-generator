@@ -1,0 +1,7 @@
+#!/usr/bin/env zx
+const generators = async = () => {
+	await $`plop --plopfile ./../dist/bundle.js`
+}
+
+generators()
+
